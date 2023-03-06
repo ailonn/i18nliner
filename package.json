@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "i18nliner@git+https://github.com/ekaradon/i18nliner-js.git#hack/critical_dependency",
+      "/mnt/DATA/projects/console-frontend"
+    ]
+  ],
+  "_from": "i18nliner@git+https://github.com/ekaradon/i18nliner-js.git#hack/critical_dependency",
+  "_id": "i18nliner@git+ssh://git@github.com/ekaradon/i18nliner-js.git#906197955efbb9af86f86466e6f7ffbfa76e64ef",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/i18nliner",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "i18nliner@git+https://github.com/ekaradon/i18nliner-js.git#hack/critical_dependency",
+    "name": "i18nliner",
+    "escapedName": "i18nliner",
+    "rawSpec": "git+https://github.com/ekaradon/i18nliner-js.git#hack/critical_dependency",
+    "saveSpec": "git+https://github.com/ekaradon/i18nliner-js.git#hack/critical_dependency",
+    "fetchSpec": "https://github.com/ekaradon/i18nliner-js.git",
+    "gitCommittish": "hack/critical_dependency"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/ekaradon/i18nliner-js.git#906197955efbb9af86f86466e6f7ffbfa76e64ef",
+  "_spec": "git+https://github.com/ekaradon/i18nliner-js.git#hack/critical_dependency",
+  "_where": "/mnt/DATA/projects/console-frontend",
+  "author": {
+    "name": "Jon Jensen"
+  },
+  "bin": {
+    "i18nliner": "./bin/i18nliner"
+  },
+  "bugs": {
+    "url": "https://github.com/jenseng/i18nliner-js/issues"
+  },
+  "dependencies": {
+    "babel-traverse": "^6.0.0",
+    "babylon": "^6.0.0",
+    "cli-color": "~1.2.0",
+    "crc32": "~0.2.2",
+    "gglobby": "0.0.3",
+    "minimist": "~1.2.0",
+    "mkdirp": "~0.5.1",
+    "speakingurl": "13.0.0"
+  },
+  "description": "i18n made simple",
+  "devDependencies": {
+    "babel-preset-latest": "~6.22.0",
+    "browserify": "~14.1.0",
+    "chai": "~3.5.0",
+    "eslint": "~3.16.1",
+    "grunt": "~1.0.1",
+    "grunt-babel": "~6.0.0",
+    "grunt-browserify": "~5.0.0",
+    "grunt-cli": "~1.2.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "gruntify-eslint": "~3.1.0",
+    "matchdep": "~1.0.1",
+    "mocha": "~3.2.0",
+    "rimraf": "~2.6.1",
+    "sinon": "~1.17.7",
+    "temp": "~0.8.3"
+  },
+  "homepage": "https://github.com/jenseng/i18nliner-js",
+  "main": "./dist/lib/main",
+  "name": "i18nliner",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jenseng/i18nliner-js.git"
+  },
+  "scripts": {
+    "test": "grunt test && mocha tmp/test --recursive"
+  },
+  "version": "0.2.3"
+}
